@@ -11,7 +11,10 @@ app.use(express.json());
 app.use('/doc', swaggerUi.serve, swaggerUi.setup(swaggerDocument));
 app.use('/task', tasksRouter);
 
-app.listen(3000 || process.env.PORT, async () => {
+const host = '0.0.0.0';
+const port = process.env.PORT || 3000;
+
+app.listen(port, host, async () => {
   try {
     await readFile('tasks.json');
     console.log('API Started!');
