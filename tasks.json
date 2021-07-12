@@ -1,5 +1,5 @@
 {
-  "nextId": 20,
+  "nextId": 21,
   "tasks": [
     {
       "id": 3,
@@ -44,6 +44,11 @@
     {
       "id": 19,
       "description": "Verificar notas lançadas",
+      "pending": "true"
+    },
+    {
+      "id": 20,
+      "description": "Estudar sobre docker",
       "pending": "true"
     }
   ]
