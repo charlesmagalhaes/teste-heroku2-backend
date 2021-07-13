@@ -5,7 +5,7 @@ export const swaggerDocument = {
     version: '1.0.0',
     title: 'My Todo List',
   },
-  host: 'https://app-my-todo-list.herokuapp.com/',
+  host: 'https://app---list.herokuapp.com',
   tags: [
     {
       name: 'task',
